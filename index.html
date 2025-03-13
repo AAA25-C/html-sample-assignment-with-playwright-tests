@@ -3,15 +3,85 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Sample project</title>
+    <title>Andrew Agyeman's Resume</title>
+
+    <!-- Linking CSS -->
+    <link rel="stylesheet" href="./css/styles.css" />
+
+    <!-- Linking JS and ensuring it loads after the HTML is parsed -->
+    <script defer src="./js/scripts.js"></script>
   </head>
-  <body>
-    <h1>Sample project</h1>
-    <p>
+  <body class="fancy-body">
+    <h1 id="candidate-name">Andrew Agyeman</h1>
+    <h2 id="candidate-desired-role">Talented Frontend Developer</h2>
+    <img
+      id="candidate-image"
+      src="./assets/avatars/fake_person.jpg"
+      alt="Andrew Agyeman's Resume"
+    />
+
+    <h2 id="about-me">About Me</h2>
+    <p class="candidate-bio">
       Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis,
       soluta natus eum, dolor dolorem tenetur fugiat mollitia laboriosam in ab
       illum voluptas, delectus accusamus voluptate sapiente repellat officia
-      amet? Voluptatem!
+      amet? Voluptatem! Ut enim ad minim veniam, quis nostrud exercitation
+      ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure
+      dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat
+      nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
+      culpa qui officia deserunt mollit anim id est laborum.
     </p>
+
+    <h2 id="skills">My Skills</h2>
+    <ol id="skills-list">
+      <li>Photoshop</li>
+      <li>Illustrator</li>
+      <li>Indesign</li>
+      <li>HTML</li>
+      <li>CSS</li>
+      <li>JavaScript</li>
+    </ol>
+
+    <h2 id="hobbies">My Hobbies</h2>
+    <ul id="hobbies-list">
+      <li>Drawing</li>
+      <li>Reading</li>
+      <li>Video Games</li>
+      <li>Anime</li>
+    </ul>
+
+    <h2 id="contacts">Contact Me</h2>
+    <table class="contacts-table">
+      <tr>
+        <th><strong>Github</strong></th>
+        <td>
+          <a href="https://github.com/AAA25-C" target="_blank">AAA25-C</a>
+        </td>
+      </tr>
+      <tr>
+        <th><strong>Discord</strong></th>
+        <td>
+          <a
+            href="https://discord.com/channels/747547219586056295"
+            target="_blank"
+            >aaa.2023</a
+          >
+        </td>
+      </tr>
+      <tr>
+        <th><strong>LinkedIn</strong></th>
+        <td>
+          <a href="https://www.linkedin.com/in/andrew-agyeman-a4750294/"
+            >Andrew Agyeman</a
+          >
+        </td>
+      </tr>
+      <tr>
+        <th><strong>Email</strong></th>
+        <td>
+          <a href="mailto:agyemanandrew@ymail.com">agyemanandrew@ymail.com</a>
+        </td>
+      </tr>
+    </table>
   </body>
 </html>
